@@ -52,4 +52,4 @@ I use Visual Studio for C++ cross platform development on Windows and Linux[1]. 
 
 [2] [Connect to your target Linux system in Visual studio](https://docs.microsoft.com/en-us/cpp/linux/connect-to-your-remote-linux-computer?view=msvc-160)
 
-# FreeImageCmk_ok_completely
+# 
