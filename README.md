@@ -23,7 +23,16 @@ msbuild -m -p:"Configuration=<build_type>;Platform=x64" ALL_BUILD.vcxproj
 # Test
 ctest -C <build_type>
 ```
+You can also install it like this:
+
+```shell
+ninja install
+```
+
+
+
 ### Linux
+
 set <build_type> Debug or Release
 ```
 cd <path-to-source-directory>
@@ -42,4 +51,5 @@ I use Visual Studio for C++ cross platform development on Windows and Linux[1]. 
 [1] [CMake projects in Visual Studio](https://docs.microsoft.com/en-us/cpp/build/cmake-projects-in-visual-studio?view=msvc-160) and [Build Linux projects with CMake in Visual studio](https://docs.microsoft.com/en-us/cpp/linux/cmake-linux-project?view=msvc-160).
 
 [2] [Connect to your target Linux system in Visual studio](https://docs.microsoft.com/en-us/cpp/linux/connect-to-your-remote-linux-computer?view=msvc-160)
+
 # FreeImageCmk_ok_completely
